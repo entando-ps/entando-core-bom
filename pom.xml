@@ -4,7 +4,7 @@
     <groupId>org.entando</groupId>
     <artifactId>entando-core-bom</artifactId>
     <packaging>pom</packaging>
-    <version>7.1.1</version>
+    <version>7.1.1-MT</version>
     <name>Entando Core BOM</name>
     <url>http://www.entando.com/</url>
     <licenses>
@@ -31,15 +31,15 @@
         </repository>
     </repositories>
     <properties>
-        <entando-engine.version>7.1.1-ENG-4293-PR-319</entando-engine.version>
-        <entando-admin-console.version>7.1.1-ENG-4036-PR-177</entando-admin-console.version>
-        <entando-portal-ui.version>7.1.1-ENG-4181-PR-83</entando-portal-ui.version>
-        <entando-plugin-jacms.version>7.1.1-ENG-4215-PR-215</entando-plugin-jacms.version>
+        <entando-engine.version>7.1.1-MT</entando-engine.version>
+        <entando-admin-console.version>7.1.1-MT</entando-admin-console.version>
+        <entando-portal-ui.version>7.1.1-MT</entando-portal-ui.version>
+        <entando-plugin-jacms.version>7.1.1-MT</entando-plugin-jacms.version>
         <entando-plugin-jpmail.version>7.1.1-ENG-4147-PR-74</entando-plugin-jpmail.version>
         <entando-plugin-jpversioning.version>7.1.0-ENG-4036-PR-70</entando-plugin-jpversioning.version>
-        <entando-plugin-jpseo.version>7.1.1-ECS-479-PR-116</entando-plugin-jpseo.version>
+        <entando-plugin-jpseo.version>7.1.1-MT</entando-plugin-jpseo.version>
         <entando-plugin-jpcontentscheduler.version>7.1.1-ENG-4147-PR-71</entando-plugin-jpcontentscheduler.version>
-        <entando-keycloak-auth.version>7.1.1-ENG-4147-PR-106</entando-keycloak-auth.version>
+        <entando-keycloak-auth.version>7.1.1-MT</entando-keycloak-auth.version>
         <github.organization>entando-k8s-infrastructure</github.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>${github.organization}</sonar.organization>
